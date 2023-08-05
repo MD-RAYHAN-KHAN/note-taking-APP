@@ -1,8 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +31,244 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* common section start */
+.container-main{
+  width: 90%;
+  height: auto;
+}
+.gray-bg {
+  background: #f4f9fc;
+}
+.d-flex{
+  display: flex;
+}
+.center{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.w-50{
+  width: 50%;
+  height: auto;
+}
+.w-20{
+  width: 20%;
+  height: auto;
+}
+h5{
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2b5c86;
+}
+.logo {
+  height: 13vmin;
+  pointer-events: none;
+}
+.divider{
+  width: 40px;
+  height: 4px;
+  font-size: large;
+  background: #e12454;
+}
+/* footer section start */
+.rouen-icon{
+  background-color: #4a6c89;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+/* .footer-para{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  color: #2d4c67;
+} */
+.footer-section > p{
+  line-height: 29px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: justify;
+  color: #6F8BA4;
+}
+.para-info > p{
+  font-size: 17px;
+  font-weight: 505;
+  color: #6F8BA4;
+}
+#semi-bold{
+  font-size: 19px;
+  color: #02284a;
+}
+.subscribe-input{
+  width: 400px;
+}
+input[type="email"], input[type="password"], input[type="text"], input[type="tel"],input[type="submit"]{
+  box-shadow: none;
+  height: 40px;
+
+  outline: none;
+  font-size: 14px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="submit"]:focus {
+  box-shadow: none;
+  border: 1px solid #223a66;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe {
+  position: relative;
+}
+
+.subscribe .form-control {
+  border-radius: 50px;
+  height: 60px;
+  padding-left: 25px;
+  border-color: #eee;
+}
+
+.subscribe .btn {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  padding: .75rem 2rem;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all .35s ease;
+}
+
+.btn.btn-icon i {
+  border-left: 1px solid rgba(255, 255, 255, 0.09);
+  padding-left: 15px;
+}
+
+.btn:focus {
+  outline: 0px;
+  box-shadow: none;
+}
+
+.btn-main {
+  background: #223a66;
+  color: #fff;
+  border-color: #223a66;
+}
+
+.btn-main:hover {
+  background: #3DA9F2;
+  border-color: #3DA9F2;
+  color: #fff;
+}
+
+.btn-main-2 {
+  background: #3DA9F2;
+  border-color: #3DA9F2;
+  color: #fff;
+}
+
+.btn-main-2:hover {
+  background: #223a66;
+  color: #fff;
+  border-color: #223a66;
+}
+
+.btn-solid-border {
+  border: 2px solid #223a66;
+  background: transparent;
+  color: #223a66;
+}
+
+.btn-solid-border:hover {
+  border: 2px solid #223a66;
+  color: #fff;
+  background: #223a66;
+}
+
+.btn-solid-border:hover.btn-icon i {
+  border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.btn-solid-border.btn-icon i {
+  border-left: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.btn-transparent {
+  background: transparent;
+  color: #222;
+  border-color: #6F8BA4;
+}
+
+.btn-transparent:hover {
+  background: #6F8BA4;
+  color: #fff;
+}
+
+.btn-white {
+  background: #fff;
+  border-color: #fff;
+  color: #222;
+}
+
+.btn-white:hover {
+  background: #223a66;
+  color: #fff;
+  border-color: #223a66;
+}
+
+.btn-solid-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-solid-white:hover {
+  background: #fff;
+  color: #222;
+}
+
+.btn-round {
+  border-radius: 4px;
+}
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+.btn.active:focus, .btn:active:focus, .btn:focus {
+  outline: 0;
+}
+.form-outline {
+  margin-top: 5px;
+  padding:8px;
+  outline: none;
+  border-bottom-color: currentcolor;
+  border-radius: 10px;
+  border: 1px solid #00ABED;
+  background: transparent;
+  width: 100%;
+}
+.text-justify{
+  text-align: justify;
 }
